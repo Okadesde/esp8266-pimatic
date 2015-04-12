@@ -8,9 +8,10 @@ contentLength = 0
 -- user:pwassword (pimatic) in BASE64; ex. "dXNlcjpwYXNzd29yZA=="
 base64login = ""   
 -- pimatic server IP
-pimaticServer = ""    				
-interval = 300
+pimaticServer = ""  
 -- send data every X seconds
+interval = 300
+
 
 --- get temp
 function readDHT22()
