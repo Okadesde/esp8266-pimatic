@@ -2,11 +2,15 @@
 tmr.delay(1000000)
 hum="XX"
 tem="XX"
-PIN = 4                             -- GPIO2
-contentLength = 0                   
-base64login = ""    				-- user:pwassword (pimatic) in BASE64; ex. "dXNlcjpwYXNzd29yZA=="
-pimaticServer = ""    				-- pimatic server IP
-interval = 300                      -- send data every X seconds
+-- GPIO2
+PIN = 4                             
+contentLength = 0   
+-- user:pwassword (pimatic) in BASE64; ex. "dXNlcjpwYXNzd29yZA=="
+base64login = ""   
+-- pimatic server IP
+pimaticServer = ""    				
+interval = 300
+-- send data every X seconds
 
 --- get temp
 function readDHT22()
