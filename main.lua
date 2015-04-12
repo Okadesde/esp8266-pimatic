@@ -5,7 +5,7 @@ tem="XX"
 -- GPIO2
 PIN = 4                             
 contentLength = 0   
--- user:pwassword (pimatic) in BASE64; ex. "dXNlcjpwYXNzd29yZA=="
+-- user:password (pimatic) in BASE64; ex. "dXNlcjpwYXNzd29yZA=="
 base64login = ""   
 -- pimatic server IP
 pimaticServer = ""  
