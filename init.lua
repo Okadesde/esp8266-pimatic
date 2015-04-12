@@ -1,7 +1,9 @@
 --- config
-ssid = ""                   -- WiFi Name 
-password = ""     			-- WiFi Password
----
+-- WiFi Name
+ssid = "" 
+-- WiFi Password
+password = ""     			
+
 
 print("Setting up WIFI...")
 wifi.setmode(wifi.STATION)
