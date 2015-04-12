@@ -1,7 +1,6 @@
 # esp8266-pimatic
 Send DHT22 temperature and humidity data to pimatic server using an esp8266
 
-Simple lua code to send DHT22 data to a pimatic server via HTTP Patch. 
 
 Setup:
 
