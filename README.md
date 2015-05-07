@@ -1,5 +1,5 @@
 # esp8266-pimatic
-Send DHT22 temperature and humidity data to pimatic server using an esp8266
+Send DHT22 or DS18B20 temperature and humidity data to pimatic server using an esp8266
 
 ![WebUI](https://raw.githubusercontent.com/Okadesde/esp8266-pimatic/master/screenshots/esp8266pimatic.png "WebUI")
 
