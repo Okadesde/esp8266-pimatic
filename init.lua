@@ -1,10 +1,10 @@
 --- config
--- WiFi Name
-ssid = "" 
--- WiFi Password
-password = ""     			
+ssid = ""                   -- WiFi Name 
+password = ""     			-- WiFi Password
+---
 
 
+--- wifi
 print("Setting up WIFI...")
 wifi.setmode(wifi.STATION)
 wifi.sta.config(ssid,password)
@@ -15,6 +15,9 @@ print("IP unavaiable, Waiting...")
 else 
 tmr.stop(1)
 print("Config done, IP is "..wifi.sta.getip())
-dofile("main.lua")
+
+--- run 
+print("Run main.lc ...")
+dofile("main.lc")
 end 
 end)
