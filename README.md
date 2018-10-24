@@ -14,6 +14,6 @@ Pimatic
 - to show the data on the homescreen add a VariablesDevice in pimatic 
 
 
-Changelog:
+Changelog: 
 
 07.05.2015 Added WebUI and DS18B20, updated code 
